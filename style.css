@@ -16,7 +16,8 @@ body{
 
 .container-player{
     width: 18rem;
-    height: 25rem;
+    height: fit-content;
+    padding: 0 0 15px 0;
     border-radius: 10px;
     background-color:#7a839a;
     box-shadow: 4px 4px 5px #012b61;
@@ -30,12 +31,17 @@ body{
     font-size: 2rem;
     color: #b9cfe9;
 }
-
+i{
+    font-size: 30px;
+    text-align: center;
+}
 .container-album{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    font-size: 20px;
 }
 
 .container-album > img{
@@ -52,6 +58,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    gap: 20px;
 }
 
 .controls > audio{
@@ -62,7 +69,6 @@ body{
 
 .player_control{
     width: 100%;
-    margin-top: 1rem;
     text-align: center;
     font-size: 2rem;
     cursor: pointer;
