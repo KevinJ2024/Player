@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Reproductor</title>
+</head>
+<body>
+  <div class="container-player">
+    <h1>Play Music</h1>        
+    <div class="container-album">
+      <img src="album.webp" alt="album" class="player__img">
+      <h2 class="player__artist">Death Grips</h2>
+      <h3 class="player__song">Lost Boys</h3>
+    </div>    
+    <div class="controls">
+      <audio class="player__audio" controls id="audio">
+        <source src="Death Grips - Lost Boys.mp3" type="audio/mpeg">
+      </audio>
+      <div class="player_controls">
+        <i class='bx bx-rewind' id="rewind"></i>        
+        <i class='bx bx-play' id="play"></i>
+        <i class='bx bx-stop' id="stop"></i> 
+        <i class='bx bx-pause' id="pause"></i>
+        <i class='bx bx-fast-forward' id="forward"></i> 
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>                    
+</body>
+</html>

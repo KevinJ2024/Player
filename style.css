@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:url('bgBody. avif');
+}
+
+.container-player{
+    width: 18rem;
+    height: 25rem;
+    border-radius: 10px;
+    background-color:#7a839a;
+    box-shadow: 4px 4px 5px #012b61;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container-player > h1{
+    font-size: 2rem;
+    color: #b9cfe9;
+}
+
+.container-album{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-album > img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem 0 1rem 0;
+}
+
+.container-player > .controls{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.controls > audio{
+    width: 100%;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.player_control{
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.player_controls > i:hover{
+    color: #17e417
+}
