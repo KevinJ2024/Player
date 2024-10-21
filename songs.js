@@ -12,21 +12,21 @@ export const playList = [
         song: "assets/audio/Lamento_Boliviano_[_YouConvert.net_].mp3"
     },
     {
-        title: 'Song 3',
-        artist: 'Artist 3',
-        img: 'ruta/de/la/imagen3.jpg',
-        song: 'ruta/de/la/cancion3.mp3'
+        title: "Beethoven virus",
+        artist: "Beethoven",
+        img: "assets/images/img3.jfif",
+        song: "assets/audio/Diana_Boncheva_feat__BanYa_-_Beethoven_Virus_Full_Version_[_YouConvert.net_].mp3"
     },
     {
-        title: 'Song 4',
-        artist: 'Artist 4',
-        img: 'ruta/de/la/imagen4.jpg',
-        song: 'ruta/de/la/cancion4.mp3'
+        title: "Memory",
+        artist: "Toby Fox",
+        img: "assets/images/img4.jpg",
+        song: "assets/audio/Undertale_OST__034_-_Memory_[_YouConvert.net_].mp3"
     },
     {
-        title: 'Song 5',
-        artist: 'Artist 5',
-        img: 'ruta/de/la/imagen5.jpg',
-        song: 'ruta/de/la/cancion5.mp3'
+        title: "True Love",
+        artist: "NyxTheShield OFFICIAL",
+        img: "assets/images/img5.jpg",
+        song: "assets/audio/Glitchtale_OST_-_True_LOVE__Genocide_Frisk_s_Theme__[_YouConvert.net_].mp3"
     },
 ];
