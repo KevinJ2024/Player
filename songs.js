@@ -29,4 +29,17 @@ export const playList = [
         img: "assets/images/img5.jpg",
         song: "assets/audio/Glitchtale_OST_-_True_LOVE__Genocide_Frisk_s_Theme__[_YouConvert.net_].mp3"
     },
+    // ya adicionales por mi
+    {
+        title: "Nunca es suficiente",
+        artist: "Natalia Lafourcade",
+        img: "assets/images/img6.jfif",
+        song: "assets/audio/Natalia_Lafourcade_-_Nunca_Es_Suficiente__Letra__[_YouConvert.net_].mp3"
+    },
+    {
+        title: "A spine chilling encounter",
+        artist: "Trio",
+        img: "assets/images/img7.jpg",
+        song: "assets/audio/A_Spine-Chilling_Encounter_Cover_[_YouConvert.net_].mp3"
+    },
 ];
