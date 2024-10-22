@@ -42,4 +42,16 @@ export const playList = [
         img: "assets/images/img7.jpg",
         song: "assets/audio/A_Spine-Chilling_Encounter_Cover_[_YouConvert.net_].mp3"
     },
+    {
+        title: "Final Escape",
+        artist: "Hedgway",
+        img: "assets/images/img8.jfif",
+        song: "assets/audio/FINAL_ZONE__FINAL_ESCAPE__only_music_aka_loopable__[_YouConvert.net_].mp3"
+    },
+    {
+        title: "Final Duet",
+        artist: "MeteoraPow",
+        img: "assets/images/img9.jpg",
+        song: "assets/audio/OMORI_-_Final_Duet_[_YouConvert.net_].mp3"
+    },
 ];
